@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example DSL Plugin
+Bundle-SymbolicName: com.darwino.domino.exampleplugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Darwino
+Automatic-Module-Name: com.darwino.domino.exampleplugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.darwino.domino.napi;bundle-version="2.0.0",com.dar
+ wino.domino.libs;bundle-version="2.0.0",com.darwino.domino.replicator
+ ;bundle-version="2.0.0"
+Import-Package: lotus.domino
